@@ -56,7 +56,6 @@ background-color: var(--secondary-color);
   padding-bottom: .3em;
 }
 
-
 .calculadora {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -68,12 +67,12 @@ background-color: var(--secondary-color);
 }
 
 .top {
-	grid-column: 1 / 5;
+  grid-column: 1 / 5;
   text-align: right;
   background-color: var(--secondary-color);
   padding: 0.5em;
   border-radius: 0.3em;
-	margin-bottom: .6em;
+  margin-bottom: .6em;
   color: white;
 }
 
@@ -82,8 +81,8 @@ background-color: var(--secondary-color);
 }
 
 .memoria {
-	font-weight: 400;
-	color: white;
+  font-weight: 400;
+  color: white;
 }
 
 .btn {
@@ -105,10 +104,10 @@ background-color: var(--secondary-color);
 
 #igual {
   grid-row: span 2;
-	background-color: rgb(235, 81, 101);
-	color: rgb(32, 32, 32);
+  background-color: rgb(235, 81, 101);
+  color: rgb(32, 32, 32);
 }
 
 #igual:hover {
-	background-color: rgb(235, 127, 141);
+  background-color: rgb(235, 127, 141);
 }
